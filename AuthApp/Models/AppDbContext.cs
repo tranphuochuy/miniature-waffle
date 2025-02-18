@@ -15,7 +15,6 @@ public partial class AppDbContext : DbContext
     {
     }
 
-    public virtual DbSet<Refreshtoken> Refreshtokens { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
 
